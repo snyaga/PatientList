@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/basicexample/basicexample.iml" filepath="$PROJECT_DIR$/basicexample/basicexample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basicexample/api/basicexample-api.iml" filepath="$PROJECT_DIR$/basicexample/api/basicexample-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basicexample/omod/basicexample-omod.iml" filepath="$PROJECT_DIR$/basicexample/omod/basicexample-omod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calculation/calculation.iml" filepath="$PROJECT_DIR$/calculation/calculation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calculation/api/calculation-api.iml" filepath="$PROJECT_DIR$/calculation/api/calculation-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calculation/omod/calculation-omod.iml" filepath="$PROJECT_DIR$/calculation/omod/calculation-omod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/htmlformentry/htmlformentry.iml" filepath="$PROJECT_DIR$/htmlformentry/htmlformentry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/htmlformentry/api/htmlformentry-api.iml" filepath="$PROJECT_DIR$/htmlformentry/api/htmlformentry-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/htmlformentry/api-1.10/htmlformentry-api-1.10.iml" filepath="$PROJECT_DIR$/htmlformentry/api-1.10/htmlformentry-api-1.10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/htmlformentry/api-tests/htmlformentry-api-tests.iml" filepath="$PROJECT_DIR$/htmlformentry/api-tests/htmlformentry-api-tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/htmlformentry/omod/htmlformentry-omod.iml" filepath="$PROJECT_DIR$/htmlformentry/omod/htmlformentry-omod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/openmrs.iml" filepath="$PROJECT_DIR$/core/openmrs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/api/openmrs-api.iml" filepath="$PROJECT_DIR$/core/api/openmrs-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/test/openmrs-test.iml" filepath="$PROJECT_DIR$/core/test/openmrs-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/tools/openmrs-tools.iml" filepath="$PROJECT_DIR$/core/tools/openmrs-tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/web/openmrs-web.iml" filepath="$PROJECT_DIR$/core/web/openmrs-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/webapp/openmrs-webapp.iml" filepath="$PROJECT_DIR$/core/webapp/openmrs-webapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reporting/reporting.iml" filepath="$PROJECT_DIR$/reporting/reporting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reporting/api/reporting-api.iml" filepath="$PROJECT_DIR$/reporting/api/reporting-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reporting/omod/reporting-omod.iml" filepath="$PROJECT_DIR$/reporting/omod/reporting-omod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uiframework/uiframework.iml" filepath="$PROJECT_DIR$/uiframework/uiframework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uiframework/api/uiframework-api.iml" filepath="$PROJECT_DIR$/uiframework/api/uiframework-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uiframework/omod/uiframework-omod.iml" filepath="$PROJECT_DIR$/uiframework/omod/uiframework-omod.iml" />
+    </modules>
+  </component>
+</project>

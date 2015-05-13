@@ -6,11 +6,10 @@
 
 <p>Hello ${user.systemId}!</p>
 
-<c:forEach var="patient" items="${patients}">
+<c:forEach var="patient" items="${patients}" varStatus="status">
     <tr>
-    <td><a href="manage.jsp?patientId=
-    ${patient.patientId}">${patient.givenName}</a></td>
-        <td>${patient.age</td>
+        <td><a href="encounter.form?patientId=${patient.patientId}">${patient.givenName}</a></td>
+        <td>${patient.age}</td>
         <td>${patient.gender}</td>
         <td>${patient.identifiers}</td>
 

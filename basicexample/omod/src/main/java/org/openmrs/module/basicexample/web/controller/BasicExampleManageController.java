@@ -34,7 +34,7 @@ public class  BasicExampleManageController {
 	
 	@RequestMapping(value = "/module/basicexample/manage", method = RequestMethod.GET)
 	public void manage(ModelMap model) {
-		//model.addAttribute("user", Context.getAuthenticatedUser());
+		model.addAttribute("user", Context.getAuthenticatedUser());
 		List<Patient> allPatients = Context.getPatientService().getAllPatients();
 		model.addAttribute("patients", allPatients);
 	}

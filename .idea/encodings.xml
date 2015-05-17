@@ -18,6 +18,9 @@
     <file url="file://$PROJECT_DIR$/htmlformentry/api-1.10" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/htmlformentry/api-tests" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/htmlformentry/omod" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/patientdetails" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/patientdetails/api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/patientdetails/omod" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/reporting" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/reporting/api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/reporting/omod" charset="UTF-8" />

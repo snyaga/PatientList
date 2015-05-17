@@ -53,6 +53,7 @@
         <option value="$PROJECT_DIR$/reporting/pom.xml" />
         <option value="$PROJECT_DIR$/uiframework/pom.xml" />
         <option value="$PROJECT_DIR$/basicexample/pom.xml" />
+        <option value="$PROJECT_DIR$/patientdetails/pom.xml" />
       </list>
     </option>
   </component>

@@ -19,6 +19,9 @@
       <module fileurl="file://$PROJECT_DIR$/core/tools/openmrs-tools.iml" filepath="$PROJECT_DIR$/core/tools/openmrs-tools.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/web/openmrs-web.iml" filepath="$PROJECT_DIR$/core/web/openmrs-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/webapp/openmrs-webapp.iml" filepath="$PROJECT_DIR$/core/webapp/openmrs-webapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patientdetails/patientdetails.iml" filepath="$PROJECT_DIR$/patientdetails/patientdetails.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patientdetails/api/patientdetails-api.iml" filepath="$PROJECT_DIR$/patientdetails/api/patientdetails-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patientdetails/omod/patientdetails-omod.iml" filepath="$PROJECT_DIR$/patientdetails/omod/patientdetails-omod.iml" />
       <module fileurl="file://$PROJECT_DIR$/reporting/reporting.iml" filepath="$PROJECT_DIR$/reporting/reporting.iml" />
       <module fileurl="file://$PROJECT_DIR$/reporting/api/reporting-api.iml" filepath="$PROJECT_DIR$/reporting/api/reporting-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/reporting/omod/reporting-omod.iml" filepath="$PROJECT_DIR$/reporting/omod/reporting-omod.iml" />

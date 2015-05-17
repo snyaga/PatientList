@@ -1,4 +1,3 @@
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <spring:htmlEscape defaultHtmlEscape="true" />
 <ul id="menu">
 	<li class="first"><a

@@ -22,7 +22,7 @@ import org.openmrs.module.basicexample.api.db.BasicExampleDAO;
 /**
  * It is a default implementation of {@link BasicExampleService}.
  */
-public class BasicExampleServiceImpl extends BaseOpenmrsService implements BasicExampleService {
+public class BasicExampleServiceImpl extends BaseOpenmrsService  {
 	
 	protected final Log log = LogFactory.getLog(this.getClass());
 	
@@ -41,4 +41,6 @@ public class BasicExampleServiceImpl extends BaseOpenmrsService implements Basic
     public BasicExampleDAO getDao() {
 	    return dao;
     }
+
+
 }

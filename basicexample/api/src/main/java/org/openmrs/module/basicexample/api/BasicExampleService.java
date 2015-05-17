@@ -13,8 +13,12 @@
  */
 package org.openmrs.module.basicexample.api;
 
+import org.openmrs.Patient;
 import org.openmrs.api.OpenmrsService;
+import org.openmrs.module.basicexample.BasicExample;
 import org.springframework.transaction.annotation.Transactional;
+
+import java.util.List;
 
 /**
  * This service exposes module's core functionality. It is a Spring managed bean which is configured in moduleApplicationContext.xml.
@@ -27,10 +31,18 @@ import org.springframework.transaction.annotation.Transactional;
  * @see org.openmrs.api.context.Context
  */
 @Transactional
-public interface BasicExampleService extends OpenmrsService {
-     
-	/*
-	 * Add service methods here
-	 * 
-	 */
+public interface BasicExampleService extends OpenmrsService  {
+
+	@Transactional(readOnly = true)
+	List<Patient> getAllPatients();
+
+
+	@Transactional(readOnly = true)
+	BasicExample getPatient(Integer nationalId);
+
+
+	BasicExample savePatient(BasicExample basicExample);
+
+
+	void purgeBasicExample(BasicExample basicExample);
 }

@@ -11,13 +11,14 @@
 				code="basicexample.manage" /></a>
 	</li>
 	
-	<!-- Add further links here -->
-	<li
-			<c:if test='<%= request.getRequestURI().contains("/encounter") %>'>class="active"</c:if>>
+	<%--<li
+			<c:if test='<%= request.getRequestURI().contains("/addpatient") %>'>class="active"</c:if>>
 		<a
-				href="${pageContext.request.contextPath}/module/basicexample/encounter.form"><spring:message
-				code="basicexample.encounter" /></a>
-	</li>
+				href="${pageContext.request.contextPath}/module/basicexample/addpatient.form"><spring:message
+				code="addpatient" /></a>
+	</li>--%>
+
+	<!-- Add further links here -->
 </ul>
 <h2>
 	<spring:message code="basicexample.title" />

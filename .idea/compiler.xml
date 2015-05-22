@@ -142,6 +142,12 @@
         <processorPath useClasspath="true" />
         <module name="patientdetails-omod" />
       </profile>
+      <profile default="false" name="Annotation profile for openmrs-release-test" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="basicexample" target="1.5" />
@@ -156,11 +162,12 @@
       <module name="htmlformentry-api-tests" target="1.6" />
       <module name="htmlformentry-omod" target="1.6" />
       <module name="openmrs" target="1.5" />
-      <module name="openmrs-api" target="1.7" />
+      <module name="openmrs-api" target="1.6" />
+      <module name="openmrs-release-test" target="1.6" />
       <module name="openmrs-test" target="1.5" />
-      <module name="openmrs-tools" target="1.7" />
-      <module name="openmrs-web" target="1.7" />
-      <module name="openmrs-webapp" target="1.7" />
+      <module name="openmrs-tools" target="1.6" />
+      <module name="openmrs-web" target="1.6" />
+      <module name="openmrs-webapp" target="1.6" />
       <module name="patientdetails" target="1.5" />
       <module name="patientdetails-api" target="1.6" />
       <module name="patientdetails-omod" target="1.6" />

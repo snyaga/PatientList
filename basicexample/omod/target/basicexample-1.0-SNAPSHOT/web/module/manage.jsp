@@ -5,23 +5,22 @@
 <p>Hello ${user.systemId}!</p>
 
 
-
 <table id="myTable">
     <thead>
     <tr>
         <th>Name</th>
         <th>Age</th>
         <th>Gender</th>
-        <th>Identifier</th>
+        <th>middleName</th>
     </tr>
     </thead>
     <tbody>
     <c:forEach var="patient" items="${patients}" varStatus="status">
         <tr>
-            <td><a href="encounter.form?patientId=${patient.patientId}">${patient.givenName}</a></td>
+            <td>${patient.givenName}</td>
             <td>${patient.age}</td>
             <td>${patient.gender}</td>
-            <td>${patient.identifiers}</td>
+            <td>${patient.middleName}</td>
 
         </tr>
     </c:forEach>

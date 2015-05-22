@@ -49,8 +49,8 @@ public class  PatientDetailsManageController {
 
 	}
 
-	@RequestMapping(value = "/module/patientdetails/addpatient.form", method = RequestMethod.POST)
-	public String addpatient(ModelMap model,
+	@RequestMapping(value = "/module/patientdetails/registration.form", method = RequestMethod.POST)
+	public String registration(ModelMap model,
 			@RequestParam(value = "firstName", required = true) String firstName,
 			@RequestParam(value = "middleName", required = true) String middleName,
 			@RequestParam(value = "lastName", required = true) String lastName,

@@ -8,7 +8,7 @@
 		<c:if test='<%= request.getRequestURI().contains("/manage") %>'>class="active"</c:if>>
 		<a
 		href="${pageContext.request.contextPath}/module/patientdetails/manage.form"><spring:message
-				code="patientdetails.manage" /></a>
+				code="Patient List" /></a>
 	</li>
 	
 	<!-- Add further links here -->
